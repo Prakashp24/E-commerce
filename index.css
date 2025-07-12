@@ -1,0 +1,385 @@
+* {
+  .poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.one {
+
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.two {
+  display: flex;
+  column-gap: 20px;
+
+
+}
+
+.two a {
+  text-decoration: none;
+  color: gray;
+}
+
+.two a:hover {
+  text-decoration: underline;
+  color: brown;
+}
+
+.three {
+  display: none;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  row-gap: 50px;
+  padding: 50px;
+}
+
+.button {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 2px;
+  margin-top: 15px;
+  cursor: pointer;
+  background-color: black;
+  color: aliceblue;
+
+}
+
+.service {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.des {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.des1 {
+  background-color: lightgrey;
+  padding-left: 5px;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+
+.des2 {
+  background-color: lightgrey;
+  padding-left: 5px;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+
+.des3 {
+  background-color: lightgrey;
+  padding-left: 5px;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+
+.newarrival {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+
+  margin-top: 5;
+
+}
+
+.bt {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+
+
+}
+
+.head {
+  margin-top: 20;
+  margin-left: ;
+}
+
+.mostwanted {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+
+  margin-top: 3px;
+
+}
+
+.btt {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: white;
+  color: orangered;
+}
+
+.headd {
+  margin-top: 20;
+  margin-left: ;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.in {
+  padding-left: 400;
+  margin-top: 10;
+
+  padding-bottom: 20px;
+  border-radius: 15px;
+}
+
+.out {
+  padding-left: 15;
+  padding-right: 15px;
+  padding-top: 5;
+  padding-bottom: 5;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+.footer {
+  background-color: #1d232c;
+  padding: 20px;
+  margin-top: 10px;
+  color: #f2f4f7;
+}
+
+.product-section {
+  margin-top: 20px;
+}
+
+.product-search {
+  width: 80%;
+  border: solid black 2px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: auto;
+}
+
+.product-search input {
+  border: none;
+  background-color: transparent;
+  width: 100%;
+}
+
+.product-search input:focus {
+  outline: none;
+}
+
+.products {
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.products-box {
+  text-align: center;
+  flex-basis: 20%;
+}
+
+.product-box image {
+  border: radius 10px;
+  ;
+}
+.marquee{
+  margin-top: 150px;
+ color:black;
+}
+
+@media screen and (max-width:600px) {
+  .three {
+    display: block;
+  }
+
+  .two {
+    display: none;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .des {
+    flex-direction: column;
+    column-gap: 5px;
+  }
+
+}
+
+.side-bar {
+  width: 50%;
+  height: 100%;
+  background-color: lightslategrey;
+  position: fixed;
+  top: 45px;
+  bottom: 0px;
+  left: 0px;
+  display: none;
+}
+
+.contenta {
+  margin-bottom: 30px;
+  ;
+
+
+
+}
+
+.content a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 5px;
+
+}
+
+.content a:hover {
+  text-decoration: underline;
+  color: black;
+}
